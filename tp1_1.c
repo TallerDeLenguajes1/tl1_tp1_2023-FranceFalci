@@ -6,12 +6,13 @@ int main (){
     int numero = 10 ; 
     int *punt = &numero;
 
-    printf("%d", punt);
-    printf("%d", &numero);
-    printf("%d", &punt);
+    printf("%d\n", punt);
+    printf("%d\n", &numero);
+    printf("%d\n", &punt);
 
-    printf("%d", *punt );
-    printf("%d", sizeof(numero));
+    printf("%d\n", *punt );
+    printf("%d\n", sizeof(numero));
+    
 
 
     
